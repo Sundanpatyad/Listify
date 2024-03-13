@@ -1,0 +1,154 @@
+
+
+/* Login Form CSS */
+
+
+
+.signupdiv{
+  display: inline;
+}
+
+.formsignup{
+
+/* border: rgb(248, 246, 246) solid 2px; */
+justify-content: center;
+display: inline-block;
+/* padding: 50px; */
+/* padding-top: 4dvb; */
+/* padding-left: 90px; */
+/* padding-right: 90px; */
+padding-bottom: 30px;
+/* background-color: #f7f4f424; */
+/* backdrop-filter: blur(10px); */
+}
+
+
+h2 {
+  padding-top: 115px;
+  font-size: 2rem;
+  color: #ffffff;
+  /* display: none; */
+ 
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  max-width: 310px;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fefdfd;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label, 
+input:valid ~ label {
+  top: -5px;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #000000;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fcfbfb;
+  font-size: 1.2rem;
+  top: 20px;
+}
+
+.forget {
+  margin: 35px 0;
+  font-size: 0.85rem;
+  color: #f9f8f8;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label input {
+  margin-right: 3px;
+}
+
+.forget a {
+  color: #f7f4f4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+#btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+background-color: rgb(59, 241, 27);
+
+  border: white solid 2px;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  color:  rgb(255, 255, 255);
+}
+
+#btn:hover {
+  background-color: transparent;
+
+/* background-color: rgb(59, 241, 27); */
+/* border: black solid 1px; */
+}
+
+.register {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;}
+  i{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+

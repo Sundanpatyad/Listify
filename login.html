@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        body{
+            background: rgb(205,239,43);
+background: linear-gradient(0deg, rgba(205,239,43,1) 0%, rgba(126,255,23,1) 35%, rgba(28,242,38,1) 100%);
+
+        }
+        .heading{
+            font-size: clamp(50px, 6vw, 100px);
+            font-weight: 700;
+
+        }
+        #headpara{
+            font-size: 20px;
+        }
+        .nav-right{
+            background-color: transparent;
+            border: 2px solid white;
+            padding:10px 30px;
+        }
+        .nav-left{
+            font-size: 25px;
+            background-color: transparent;
+            border: none;
+            font-weight: 600;
+        }
+        .formdiv {
+            background-image: url("—Pngtree—iphone\ 14_8908770.png");
+            background-position: center;
+            background-size: 130%;
+            height: 90vh;
+            
+            background-repeat: no-repeat;
+            
+             /* You can adjust this value to your preference */
+        }
+        @media screen and (max-width: 415px) {
+            #homepage{
+                display: none;
+            }
+            #formsigup {
+              padding: 20px;
+         
+              
+            }
+            h2 {
+                padding-top: 100px !important;
+                font-size: 2rem;
+                color: #ffffff;
+                /* display: none; */
+               
+              }
+              
+              .inputbox {
+                position: relative;
+                margin: 30px 0;
+                max-width: 200px !important;
+                border-bottom: 2px solid #f7f7f7;
+              }
+            
+           
+            
+          
+            .formdiv {
+                background-image: url("");
+                background-position: center;
+                background-size: 70%;
+                height: 70vh;
+                
+                background-repeat: no-repeat;
+                
+                 /* You can adjust this value to your preference */
+            }
+          }
+
+        @media screen and (max-width: 844px) {
+            .formsigup {
+              padding: 20px;
+             
+              
+            }
+            h2 {
+                padding-top: 100px !important;
+                font-size: 2rem;
+                color: #ffffff;
+                /* display: none; */
+               
+              }
+              
+              .inputbox {
+                position: relative;
+                margin: 30px 0;
+                max-width: 200px !important;
+                border-bottom: 2px solid #f7f7f7;
+              }
+         
+            .formdiv {
+                background-image: url("");
+                background-position: center;
+                background-size: 180%;
+                height: auto;
+                background-repeat: no-repeat;
+                
+                 /* You can adjust this value to your preference */
+            }
+          }
+        
+          @media screen and (max-width: 932px) {
+            form{
+                border: 2px solid white ;
+                padding: 10px 50px;
+                border-radius: 10px;
+            }
+            #homepage{
+                display: none;
+            }
+            .formsigup {
+              padding: 20px;
+              
+             
+              
+            }
+            h2 {
+                padding-top: 100px !important;
+                font-size: 2rem;
+                color: #ffffff;
+                /* display: none; */
+               
+              }
+              
+              .inputbox {
+                position: relative;
+                margin: 30px 0;
+                max-width: 200px !important;
+                border-bottom: 2px solid #f7f7f7;
+              }
+         
+            .formdiv {
+                background-image: url("");
+                background-position: center;
+                background-size: 160%;
+                height: auto;
+                background-repeat: no-repeat;
+                
+                 /* You can adjust this value to your preference */
+            }
+          }
+        
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand text-white nav-left" href="index.html"><div class="nav-left">Listify</div></a>
+            <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              
+               <i id="icon" class="fa-solid fa-bars-staggered"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse offset-1 text-center" id="navbarNav">
+                <ul class="navbar-nav mx-2 ms-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Help Center</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="signup.html">Sign Up For Free</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white nav-ryt-btn " href="list.html"><button class="nav-right">Create a Grocery List</button><div class="wave"></div></a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav><hr>
+        
+       </div>
+    
+   <div class="container">
+    <div class="row">
+        <div id="homepage" class="my-5 col-lg-6 text-center text-lg-start"> 
+            <h1 class="heading">Login In Listify <br> Grossery List</h1>
+            <button id="getstarted" class="btn btn-lg btn-outline-light ">Get Started</button>
+        </div>
+        <div class="col-lg-6  formdiv text-center">
+            <div class="">
+            <form action="" class="formsignup ">
+                <h2 class="">Login </h2>
+               
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="forget">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                  <a href="#">Forget Password</a>
+                </div>
+                <button id="btn">Login</button>
+                <div class="register">
+                    <p>Already have an account <a href="signup.html">Register</a></p>
+                </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</div><hr>
+<div class="row">
+    <div class="col-12"><p>Created By Sundan Sharma</p></div>
+ 
+</div>
+<script>
+    document.getElementById('navbar-toggler').addEventListener('click', function() {
+        var icon = document.getElementById('icon');
+        if (icon.classList.contains('fa-bars')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-xmark');
+        } else {
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+        }
+    });
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
